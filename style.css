@@ -1,0 +1,229 @@
+.body{ 
+    background-image: url(hairdresser-4666064_1920.jpg);
+    font-family: 'MiFuentePersonalizada';
+    src: url('edosz.ttf') format('truetype');
+    margin: 0;    
+}
+.bodycontactofondo{
+    padding: 0;
+    margin: 0;  
+    background-image: url(barber-shop-6797761_1920.jpg);
+    font-family: 'MiFuentePersonalizada';
+    src: url('edosz.ttf') format('truetype');
+    
+}
+.logoheader{
+    width: 100px;
+    position: relative;
+    margin-right: 900px;
+}
+.divlogo{
+    display: flex;
+}
+.headerindex{
+    margin: 0  ;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    background-color:white;
+    margin-bottom: 0px;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: stretch;
+    position: relative
+}   
+
+.botonesheader{
+    height: 70px;
+    display: inline-block;
+    padding: 10px 50px;
+    border: none;
+    background-color: #f0f0f081;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 5px;
+}
+
+.botonesheader:hover
+{   background-color: #a8a8a8;
+    }
+.peluqueriadg{
+    font-family: 'edosz.tff';
+    src: url('edosz.ttf') format('truetype');
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mainpelu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-size:cover ;
+}
+.botonwsp{
+    display: flex;
+    width: 50px;
+    position: relative;
+    left: 10px;
+    top: 330px;
+    flex-direction: fixed;    
+}
+
+.footerindex{
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+.bodynosotros{
+    padding: 0;
+    margin: 0;
+    
+    image-resolution: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black
+}
+.Contenedordeimg{
+    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color: black;
+}
+.consulta{
+    display: flex;
+    position: absolute;
+    color:white;
+    top: 900px;
+    left: 150px;
+}
+
+.nosotros2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.parrafo2{
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    margin: 0;
+    padding: 0%;
+    color: white;
+    display: flex;
+    text-align: center;
+
+}
+.infocontacto{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    right: 10%;   
+    top: 40%;
+    width: 500px;    
+}
+.h1contacto{
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mapacontacto{
+    display: flex;
+    position: relative;
+    left: 140px;
+    top: 140px;
+}
+.imagennegra{
+    padding: 0;
+    margin: 0;  
+    opacity: 90%;
+    position: absolute;
+    margin-top: 0px
+}
+.mapita{
+    padding: ;
+    color: white;
+    position: relative;
+    left:400px;
+    top: 150px;
+}
+.botonwspcontacto{    
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 40%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .headerindex{
+        justify-content: center;
+        row-gap:
+
+    }
+    .bodycontactofondo{
+        justify-content: center;
+    }
+    .h1contacto{
+        justify-content: center;
+    }
+    .mapita{
+        justify-content: center;
+        display: ;
+    }
+    .mapacontacto{
+        justify-content: center;
+        display: flex;
+    }
+    .infocontacto{
+        justify-content: center;
+    }
+    .bodynosotros{
+        justify-content: center;
+    }
+    .body{
+        justify-content: center;
+    }
+    }
